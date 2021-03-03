@@ -1,0 +1,39 @@
+curl 'http://localhost:5500/_next/webpack-hmr?page=/' \
+  -H 'Connection: keep-alive' \
+  -H 'sec-ch-ua: "Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"' \
+  -H 'Accept: text/event-stream' \
+  -H 'Cache-Control: no-cache' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: http://localhost:5500/' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  --compressed
+
+http://localhost:5500/_next/webpack-hmr?page=/													15:17:55
+EventSource >>> {"action":"sync","hash":"617274f511ba9bf67c78","warnings":[],"errors":[]}		15:17:55.569
+EventSource >>> {"success":true}																15:18:00.581
+EventSource >>> {"action":"building"}															15:18:05.053
+EventSource >>> {"action":"built","hash":"593a619c2d6394788c32","warnings":[],"errors":[]}		15:18:05.605
+http://localhost:5500/_next/static/webpack/617274f511ba9bf67c78.hot-update.json 				15:18:05
+	{"h":"593a619c2d6394788c32","c":{"pages/index":true}}
+http://localhost:5500/_next/static/webpack/pages/index.617274f511ba9bf67c78.hot-update.js		15:18:05
+	webpackHotUpdate_N_E("pages/index", ...
+EventSource >>> {"success":true}																15:18:10.594
+EventSource >>> {"success":true}																15:18:15.608
+EventSource >>> {"action":"building"}															15:18:19.016
+EventSource >>> {"action":"built","hash":"8818d32d806b1afe6b01","warnings":[],"errors":[]}		15:18:19.503
+http://localhost:5500/_next/static/webpack/593a619c2d6394788c32.hot-update.json					15:18:19
+	{"h":"8818d32d806b1afe6b01","c":{"pages/index":true}}
+http://localhost:5500/_next/static/webpack/pages/index.593a619c2d6394788c32.hot-update.js		15:16:19
+	webpackHotUpdate_N_E("pages/index", ...
+EventSource >>> {"success":true}																15:18:20.621
+EventSource >>> {"success":true}																15:18:25.622
+EventSource >>> {"action":"building"}															15:19:06.513
+EventSource >>> {"action":"built","hash":"81e481bd9b6ab9d85f06","warnings":[],"errors":[]}		15:19:06.980
+http://localhost:5500/_next/static/webpack/8818d32d806b1afe6b01.hot-update.json					15:19:07
+	{"h":"81e481bd9b6ab9d85f06","c":{"pages/index":true}}
+http://localhost:5500/_next/static/webpack/pages/index.8818d32d806b1afe6b01.hot-update.js		15:19:07
+	webpackHotUpdate_N_E("pages/index", ...
